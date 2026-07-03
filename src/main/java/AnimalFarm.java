@@ -34,7 +34,7 @@ public class AnimalFarm {
             if (split.length < 2) {
                 throw new IllegalArgumentException(String.format("Please correct string \"%s\". Incorrect input data.", farmAnimal));
             } else {
-                result.add(farmAnimal);
+                result.add(split[1]);
             }
         }
         return result;
